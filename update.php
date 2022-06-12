@@ -59,7 +59,7 @@ require 'header.php';
             ?>
                         <br>
                         <br>
-                        <form action="" method="post" class="mt-4">
+                        <form action="editdata.php" method="post" class="mt-4">
                             <div class="row offset-md-1">
                                 <div class="col-md-3">
                                     <b>sid :</b> <input type="text" class="form-control" name="sid" value="<?php echo $row['sid'] ?>">
